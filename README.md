@@ -1,6 +1,6 @@
 # Softwarica Booking System
 
-This is my college project - a desktop hotel booking app I made using Python and Tkinter. It's like a mini version of Booking.com where users can search for hotels and make reservations, while admins can manage everything.
+This is my college project - a desktop hotel booking app we made using Python and Tkinter. It's like a mini version of Booking.com where users can search for hotels and make reservations, while admins can manage everything.
 
 ## Project Details
 
@@ -12,7 +12,7 @@ This is my college project - a desktop hotel booking app I made using Python and
 
 ### For Regular Users
 
-- Sign up and login to your account
+- Sign up and login to your account and Forgot Password
 - Browse hotels with ratings and see what amenities they have
 - Search for hotels by city/location
 - Book rooms by picking check-in and check-out dates
@@ -64,7 +64,6 @@ This is my college project - a desktop hotel booking app I made using Python and
 
 ## 📁 Project Structure
 
-```
 softwarica_booking_app/
 │
 ├── main.py              # Application entry point
@@ -74,10 +73,8 @@ softwarica_booking_app/
 ├── auth.py              # Login and registration windows
 ├── user.py              # User dashboard and features
 ├── admin.py             # Admin dashboard and management
-├── requirements.txt     # Python dependencies
 ├── README.md            # This file
 └── booking.db           # SQLite database (created on first run)
-```
 
 ## How to Run
 
@@ -200,28 +197,6 @@ You can register a new account from the login screen.
 - Using parameterized queries to prevent SQL injection
 - Email and date validation on all inputs
 
-## UI Design
-
-I tried to make the UI look modern and clean. Here's what I did:
-
-### Colors
-
-- **Main Color**: `#667eea` (purple-blue) - used for primary buttons
-- **Success**: `#48bb78` (green) - for positive actions
-- **Danger**: `#f56565` (red) - for delete buttons
-- **Background**: `#f7fafc` (light gray)
-- **Text**: Dark gray for good readability
-
-### Font
-
-Using Segoe UI because it looks clean and comes with Windows
-
-### Design Style
-
-- Card-style layouts (those white boxes with subtle shadows)
-- Buttons change color when you hover over them
-- Nice spacing so it's not cramped
-- Input fields highlight when you click them
 
 ## Testing
 
@@ -258,12 +233,17 @@ This is a college project for educational purposes.
 Special thanks to:
 
 - **Softwarica College of IT & E-Commerce** - For project guidance and support
-- **Project Supervisor** - For valuable feedback and technical direction
+- **Project Supervisor** - Giriraj Rawat
 - **Python Community** - For comprehensive Tkinter and SQLite documentation
 - **bcrypt Contributors** - For providing robust password hashing library
 
-**Project Completed:** ✅  
-**Status:** Production Ready  
+
 **Version:** 1.0  
 **Academic Year:** 2026  
-**Course:** Software Engineering / Database Systems
+**Course:** Programming and Algorithm
+
+**Contributers**
+- Aakash Kumar Das
+- Karun Khatiwada
+- Rahul Mahaseth
+- Nishant Dangaura
